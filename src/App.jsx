@@ -43,11 +43,12 @@ const App = () => {
     <>
       {/* Navbar */}
       <div className="navbar flex justify-between items-center p-5 text-white">
-        <div className="flex logo justify-center">
+        <div className="flex logo justify-center items-center">
           <img
             className="w-10 h-10 mr-3"
             src="https://cdn.iconscout.com/icon/premium/png-256-thumb/solana-sol-7152167-5795323.png?f=webp&w=256"
             alt="logo"
+            style  = {{height: 55, width: 55}}
           />
           <h1 className="text-3xl font-extrabold">SOL-WALLET</h1>
         </div>
